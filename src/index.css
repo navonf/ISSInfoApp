@@ -12,10 +12,26 @@ code {
     monospace;
 }
 
+div.people-in-space {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.astronaut-img {
+  max-width: 30%;
+  padding-right: 50px;
+  align-items: inherit;
+}
+
 div.App {
   color: white;
   max-width: 550px;
-  margin: 30px auto;
+  margin: auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +40,8 @@ div.App {
 }
 
 div.navbar {
-  margin: 30px auto;
+  padding-top: 20px;
+  margin: auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;
