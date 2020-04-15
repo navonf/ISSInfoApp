@@ -6,7 +6,7 @@ const PeopleInSpace = () => {
   const [ astros, setAstros ] = useState([]);
 
   useEffect(() => {
-    const url = "http://caddienow-iss.herokuapp.com/astros";
+    const url = "https://caddienow-iss.herokuapp.com/astros";
     fetch(url)
       .then(res => res.json())
       .then(res => setAstros(res.people));

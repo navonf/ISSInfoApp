@@ -21,7 +21,7 @@ const FlyOver = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    let url = "http://caddienow-iss.herokuapp.com/iss-pass?";
+    let url = "https://caddienow-iss.herokuapp.com/iss-pass?";
     
     // These parameters are required. The form will not submit without them.
     url = url.concat("lat=", lat, "&lon=", lng);

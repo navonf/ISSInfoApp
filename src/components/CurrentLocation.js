@@ -8,7 +8,7 @@ const CurrentLocation = () => {
 
   useEffect(() => {
     async function getData() {
-      const url = "http://caddienow-iss.herokuapp.com/iss-now";
+      const url = "https://caddienow-iss.herokuapp.com/iss-now";
       const res = await fetch(url);
       res
         .json()
