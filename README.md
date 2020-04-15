@@ -1,24 +1,24 @@
 To start frontend client locally:
 
-go into the frotend folder
+go into the frotend folder 
 `cd frontend`
 
-install dependecies
+install dependecies 
 `npm install`
 
-start app using npm
+start app using npm 
 `npm start`
 
 
 The backend server can be started locally, although the frontend is connected to the deployed heroku app.
 
-go into the backend folder
+go into the backend folder 
 `cd backend`
 
-instal dependecies
+install dependecies 
 `pip install flask flask-cors`
 
-start the flask app
+start the flask app 
 `python3 app.py`
 
 
